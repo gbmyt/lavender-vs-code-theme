@@ -6,6 +6,7 @@ All notable changes to the "lavender" extension will be documented in this file.
 
 ## Unreleased
 - Debug Console, Debug Toolbar and Terminal colors updated
+- Updated colors for markdown files
 
 ## 0.0.2
 - Missing images and links added to README.md
