@@ -6,7 +6,7 @@
       "activityBar.background": "#b9acff",
       "activityBar.border": "#b9acff60",
       "activityBar.foreground": "#6654A1",
-      "activityBarBadge.background": "#ffa3c1",
+      "activityBarBadge.background": "#6654A1",
       "activityBarBadge.foreground": "#fde9b6ff",
 
 			"badge.background": "#b9acff30",
@@ -265,7 +265,7 @@
 
       "textPreformat.foreground": "#483d6f",
 			"textLink.activeForeground": "#483d6f",
-      "textLink.foreground": "#ff7da8",
+      "textLink.foreground": "#eadaff",
 
 			"titleBar.activeBackground": "#b9acff",
       "titleBar.activeForeground": "#6654A1",
@@ -274,6 +274,8 @@
       "titleBar.inactiveForeground": "#eadaff",
 
 			"tree.indentGuidesStroke": "#CAA6FF",
+      "welcomePage.progress.foreground": "#6654A1",
+      "welcomePage.tileHoverBackground": "#9385E3",
       "widget.shadow": "#6654A1",
       "window.activeBorder": "#6654A1",
       "window.inactiveBorder": "#9385E3",
