@@ -1,7 +1,7 @@
 {
-  "name": "lavender",
-  "displayName": "Lavender",
-  "description": "A pastel lavender theme for VS Code",
+  "name": "pastel-lavender-theme",
+  "displayName": "Pastel Lavender Theme",
+  "description": "A pastel-inspired lavender theme for VS Code",
   "version": "0.0.1",
   "publisher": "gbmyt",
   "repository": {
@@ -12,6 +12,9 @@
     "theme",
     "lavender",
     "pastel",
+    "pink",
+    "purple",
+    "pastel lavender",
     "gbmyt",
     "cute",
     "kawaii",
@@ -20,6 +23,8 @@
     "casseopeian",
     "lavender theme",
     "pastel theme",
+    "purple theme",
+    "pastel lavender theme",
     "gbmyt theme",
     "gbmyt themes",
     "cute theme",
@@ -37,7 +42,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lavender",
+        "label": "Pastel Lavender Theme",
         "uiTheme": "vs",
         "path": "./themes/Lavender-color-theme.json"
       }
