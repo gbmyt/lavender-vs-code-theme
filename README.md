@@ -2,9 +2,9 @@
 
 A Pastel Lavender VS Code Theme (dark version coming soon!)
 
-![Javascript](../assets/javascript.png)
-![JSON](../assets/JSON.png)
-![HTML](../assets/html.png)
+![Javascript](/assets/javascript.png)
+![JSON](/assets/JSON.png)
+![HTML](/assets/html.png)
 
 ### Install
 This extension is available for free in the [Visual Studio Code Marketplace]()
