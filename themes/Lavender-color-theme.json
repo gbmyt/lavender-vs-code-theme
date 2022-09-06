@@ -10,7 +10,7 @@
       "activityBarBadge.foreground": "#fde9b6ff",
 
 			"badge.background": "#b9acff30",
-      "badge.foreground": "#ff0000",
+      "badge.foreground": "#483d6f",
 
 			"breadcrumb.activeSelectionForeground": "#000000",
       "breadcrumb.background": "#9385E3",
@@ -79,10 +79,13 @@
       "editorWidget.border": "#000000",
       "editorWidget.resizeBorder": "#000000",
 
-			"extensionButton.prominentBackground": "#00000090",
-      "extensionButton.prominentHoverBackground": "#000000",
+			"extensionButton.prominentBackground": "#CAA6FF",
+      "extensionButton.prominentHoverBackground": "#6654A1",
+      "extensionIcon.starForeground": "#483d6f",
+      "extensionIcon.verifiedForeground": "#DABEFF",
 
 			"focusBorder": "#DABEFF",
+      "foreground": "#483d6f",
 
 			"gitDecoration.conflictingResourceForeground": "#000000",
       "gitDecoration.deletedResourceForeground": "#000000",
@@ -106,8 +109,8 @@
       "list.focusBackground": "#b9acff",
       "list.focusForeground": "#483d6f",
       "list.highlightForeground": "#483d6f",
-      "list.hoverBackground": "#b9acff",
-      "list.hoverForeground": "#fde9b6ff",
+      "list.hoverBackground": "#8979e7",
+      "list.hoverForeground": "#483d6f",
       "list.inactiveSelectionBackground": "#b9acff",
       "list.inactiveSelectionForeground": "#483d6f",
       "list.warningForeground": "#ff0000",
@@ -126,13 +129,15 @@
       "menubar.selectionBorder": "#00000050",
       "menubar.selectionForeground": "#DABEFF",
 
-			"minimap.background": "#DABEFF",
+			"minimap.background": "#b9acff",
       "minimapGutter.addedBackground": "#000000",
       "minimapGutter.deletedBackground": "#000000",
+      "minimap.findMatchHighlight": "#9385E3",
+      "minimap.selectionHighlight": "#9385E3",
       "minimapGutter.modifiedBackground": "#000000",
       "minimapSlider.activeBackground": "#000000b0",
-      "minimapSlider.background": "#00000080",
-      "minimapSlider.hoverBackground": "#000000a0",
+      "minimapSlider.background": "#9385e37e",
+      "minimapSlider.hoverBackground": "#9385e37e",
 
 			"notificationLink.foreground": "#000000",
       "notifications.background": "#b9acff",
@@ -158,7 +163,7 @@
 			"pickerGroup.foreground": "#000000",
 
 			"progressBar.background": "#000000",
-      "descriptionForeground": "#ff0000",
+      "descriptionForeground": "#b9acff",
 
       // Border Between Editor and File Tree
       // "sash.hoverBorder": "#ff0000",
@@ -170,6 +175,7 @@
 
 			"selection.background": "#9385E3",
 
+      // Settings GUI
 			"settings.checkboxBackground": "#b9acff",
       "settings.checkboxForeground": "#6654A1",
       "settings.dropdownBackground": "#b9acff",
@@ -213,6 +219,8 @@
       "tab.unfocusedInactiveBackground": "#00000010",
       "tab.unfocusedInactiveForeground": "#DABEFF7f",
 
+      // Terminal Settings
+      "terminal.foreground":"#7000d1", // Buggy
 			"terminal.ansiBlack": "#b9acff",
       "terminal.ansiBlue": "#000000",
       "terminal.ansiBrightBlack": "#000000",
@@ -232,9 +240,9 @@
       "terminalCursor.background": "#fde9b6ff",
       "terminalCursor.foreground": "#fde9b6ff",
 
-			"textLink.activeForeground": "#f277a0e1",
-      "textLink.foreground": "#ffc8d5",
-      "textBlockQuote.background": "#ff0000",
+      "textPreformat.foreground": "#483d6f",
+			"textLink.activeForeground": "#483d6f",
+      "textLink.foreground": "#ff7da8",
 
 			"titleBar.activeBackground": "#b9acff",
       "titleBar.activeForeground": "#DABEFF",
@@ -269,6 +277,7 @@
           "punctuation.definition.interpolation.begin.bracket.curly.scss"
         ],
         "settings": {
+          "foreground": "#483d6f",
           "fontStyle": "italic"
         }
       },
@@ -391,7 +400,9 @@
           "comment.block.js",
           "punctuation.support.type.property-name.begin.json.comments",
           "punctuation.definition.comment.json.comments",
-          "punctuation.separator.dictionary.pair.json.comments"
+          "punctuation.separator.dictionary.pair.json.comments",
+          "entity.name.function.python",
+          "comment.line.number-sign.python"
         ],
         "settings": {
           "foreground": "#483d6fc9",
@@ -406,7 +417,7 @@
           "support.type.property-name.json.comments"
         ],
         "settings": {
-          "foreground": "#ffa3c1",
+          "foreground": "#ff7da8",
         }
       },
       {
@@ -644,7 +655,23 @@
           "support.function"
         ],
         "settings": {
-          "foreground": "#000000"
+          "foreground": "#ff7da8"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.flow.python"
+        ],
+        "settings": {
+          "foreground": "#fde9b6ff"
+        }
+      },
+      {
+        "scope": [
+          "source.python"
+        ],
+        "settings": {
+          "foreground": "#ff7da8"
         }
       },
       {
@@ -711,7 +738,7 @@
           "string.regexp"
         ],
         "settings": {
-          "foreground": "#8cff00"
+          // "foreground": "#8cff00"
         }
       },
       {
