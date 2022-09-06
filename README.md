@@ -10,7 +10,9 @@ To override this (or any other) theme in your personal config file, please follo
 
 **Attention:** If you are seeing very different colors, please make sure you set this in your settings:
 
-`"editor.semanticHighlighting.enabled": false`
+```
+"editor.semanticHighlighting.enabled": false
+```
 
 # Issues
 Noticing issues for any language? Please raise an issue and I'll fix (please provide a sample for the language in question).
