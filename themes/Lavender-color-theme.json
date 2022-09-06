@@ -245,14 +245,15 @@
       "textLink.foreground": "#ff7da8",
 
 			"titleBar.activeBackground": "#b9acff",
-      "titleBar.activeForeground": "#DABEFF",
+      "titleBar.activeForeground": "#483d6f",
       "titleBar.border": "#b9acff60",
       "titleBar.inactiveBackground": "#b9acff",
-      "titleBar.inactiveForeground": "#483d6f",
+      "titleBar.inactiveForeground": "#eadaff",
 
 			"tree.indentGuidesStroke": "#CAA6FF",
       "widget.shadow": "#6654A1",
-      "window.activeBorder": "#483d6f",
+      "window.activeBorder": "#6654A1",
+      "window.inactiveBorder": "#9385E3",
     },
     "tokenColors": [
       {
