@@ -27,6 +27,7 @@
 			"diffEditor.insertedTextBackground": "#00000015",
       "diffEditor.removedTextBackground": "#00000020",
 
+      "descriptionForeground": "#b9acff",
 			"dropdown.background": "#b9acff",
       "dropdown.border": "#9385E3",
 
@@ -118,6 +119,17 @@
       "listFilterWidget.noMatchesOutline": "#b9acff30",
       "listFilterWidget.outline": "#b9acff30",
 
+      // Command Palette Keybinding Labels
+      "keybindingLabel.background": "#b9acff",
+      "keybindingLabel.foreground": "#6654A1",
+      "keybindingLabel.border": "#6654A1",
+      "keybindingLabel.bottomBorder": "#6654A1",
+
+      // Keyboard Shortcuts
+      "keybindingTable.headerBackground": "#DABEFF",
+      "keybindingTable.rowsBackground":"#b9acff",
+
+      // Menu Bar
 			"menu.background": "#b9acfff8",
       "menu.border": "#00000050",
       "menu.foreground": "#DABEFF",
@@ -163,7 +175,8 @@
 			"pickerGroup.foreground": "#000000",
 
 			"progressBar.background": "#000000",
-      "descriptionForeground": "#b9acff",
+
+      // "quickInputTitle.background":"#ff0000",
 
       // Border Between Editor and File Tree
       // "sash.hoverBorder": "#ff0000",
@@ -245,7 +258,7 @@
       "textLink.foreground": "#ff7da8",
 
 			"titleBar.activeBackground": "#b9acff",
-      "titleBar.activeForeground": "#483d6f",
+      "titleBar.activeForeground": "#6654A1",
       "titleBar.border": "#b9acff60",
       "titleBar.inactiveBackground": "#b9acff",
       "titleBar.inactiveForeground": "#eadaff",
@@ -359,8 +372,6 @@
 					"punctuation.terminator.statement.js",
           "keyword.operator.assignment.js",
           "punctuation.separator.comma.js",
-          "punctuation.definition.string.begin.js",
-          "punctuation.definition.string.end.js",
           "punctuation.definition.binding-pattern.object.js"
         ],
         "settings": {
@@ -406,7 +417,7 @@
           "comment.line.number-sign.python"
         ],
         "settings": {
-          "foreground": "#483d6fc9",
+          "foreground": "#483d6fbc",
 					"fontStyle": "italic"
         }
       },
@@ -424,7 +435,8 @@
       {
         "scope": [
           "punctuation.definition.string.begin.json.comments",
-          "punctuation.definition.string.end.json.comments"
+          "punctuation.definition.string.end.json.comments",
+          "string.quoted.double.json"
         ],
         "settings": {
           "foreground": "#EADAFF"
@@ -505,8 +517,7 @@
       },
       {
         "scope": [
-          "entity.name.function.js",
-          "string.quoted.double.json"
+          "entity.name.function.js"
         ],
         "settings": {
           "foreground": "#eadaff",
