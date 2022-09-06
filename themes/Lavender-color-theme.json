@@ -23,6 +23,8 @@
 			"contrastBorder": "#00000040",
 
 			"debugToolBar.background": "#b9acff",
+			"debugConsole.infoForeground": "#eadaff",
+      "debugConsole.errorForeground": "#ff8787",
 
 			"diffEditor.insertedTextBackground": "#00000015",
       "diffEditor.removedTextBackground": "#00000020",
@@ -160,7 +162,7 @@
       "panel.border": "#9385E3",
       "panelTitle.activeBorder": "#6654A1",
       "panelTitle.activeForeground": "#fde9b6ff",
-      "panelTitle.inactiveForeground": "#6654A1",
+      "panelTitle.inactiveForeground": "#483d6f",
 
 			"peekView.border": "#b9acff30",
       "peekViewEditor.background": "#6b06f005",
@@ -211,8 +213,8 @@
       // Bottom Menu Bar
 			"statusBar.background": "#9385E3",
       "statusBar.border": "#b9acff60",
-      "statusBar.debuggingBackground": "#000000",
-      "statusBar.debuggingForeground": "#fde9b6ff",
+      "statusBar.debuggingBackground": "#6654A1",
+      "statusBar.debuggingForeground": "#eadaff",
       "statusBar.foreground": "#eadaff",
       "statusBar.noFolderBackground": "#b9acff",
       "statusBarItem.hoverBackground": "#00000020",
@@ -233,8 +235,9 @@
       "tab.unfocusedInactiveForeground": "#DABEFF7f",
 
       // Terminal Settings
-      "terminal.foreground":"#7000d1", // Buggy
-			"terminal.ansiBlack": "#b9acff",
+      "terminal.foreground":"#DABEFF", // Buggy
+      "terminal.background":"#483d6f", // Buggy
+			"terminal.ansiBlack": "#000000",
       "terminal.ansiBlue": "#000000",
       "terminal.ansiBrightBlack": "#000000",
       "terminal.ansiBrightBlue": "#000000",
@@ -245,13 +248,20 @@
       "terminal.ansiBrightWhite": "#DDC996",
       "terminal.ansiBrightYellow": "#000000",
       "terminal.ansiCyan": "#000000",
-      "terminal.ansiGreen": "#000000",
+      // modified git resource in terminal
+      "terminal.ansiGreen": "#ff7da8",
       "terminal.ansiMagenta": "#000000",
-      "terminal.ansiRed": "#000000",
-      "terminal.ansiWhite": "#fde9b6ff",
+      // unstaged in git terminal
+      "terminal.ansiRed": "#ffc8d5",
+      "terminal.ansiWhite": "#eadaff",
       "terminal.ansiYellow": "#000000",
       "terminalCursor.background": "#fde9b6ff",
       "terminalCursor.foreground": "#fde9b6ff",
+      "terminalCommandDecoration.defaultBackground": "#eadaff" , // change this to #ff7da8 if able to switch terminal text color
+      "terminalCommandDecoration.successBackground": "#ffa3c1",
+      // "terminalCommandDecoration.errorBackground": "#ff0000",
+      // "terminalOverviewRuler.cursorForeground": "#ff0000",
+      // "terminalOverviewRuler.findMatchForeground": "#ff0000",
 
       "textPreformat.foreground": "#483d6f",
 			"textLink.activeForeground": "#483d6f",
@@ -483,12 +493,19 @@
         "scope": [
           "variable.other.object.js",
           "storage.type.js",
-          "string.other.link.title.markdown",
           "variable.other.property.js"
         ],
         "settings": {
           "foreground": "#ff7a99",
           "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "string.other.link.title.markdown"
+        ],
+        "settings": {
+          "foreground": "#fde9b6ff"
         }
       },
       {
@@ -838,8 +855,8 @@
           "markup.underline"
         ],
         "settings": {
-          "foreground": "#000000",
-          "fontStyle": "underline"
+          "foreground": "#ffa3c1",
+          "fontStyle": "italic underline"
         }
       },
       {
