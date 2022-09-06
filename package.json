@@ -3,6 +3,31 @@
   "displayName": "Lavender",
   "description": "A pastel lavender theme for VS Code",
   "version": "0.0.1",
+  "publisher": "gbmyt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbmyt/lavender-vs-code-theme"
+  },
+  "keywords": [
+    "theme",
+    "lavender",
+    "pastel",
+    "gbmyt",
+    "cute",
+    "kawaii",
+    "light",
+    "light mode",
+    "casseopeian",
+    "lavender theme",
+    "pastel theme",
+    "gbmyt theme",
+    "gbmyt themes",
+    "cute theme",
+    "kawaii theme",
+    "light mode theme",
+    "casseopeian theme",
+    "casseopeian themes"
+  ],
   "engines": {
     "vscode": "^1.71.0"
   },
