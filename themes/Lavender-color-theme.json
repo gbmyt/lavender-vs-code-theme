@@ -88,11 +88,11 @@
 			"focusBorder": "#DABEFF",
       "foreground": "#483d6f",
 
-			"gitDecoration.conflictingResourceForeground": "#000000",
-      "gitDecoration.deletedResourceForeground": "#000000",
-      "gitDecoration.ignoredResourceForeground": "#000000",
+			"gitDecoration.conflictingResourceForeground": "#ff0000",
+      "gitDecoration.deletedResourceForeground": "#A7A8AF",
+      "gitDecoration.ignoredResourceForeground": "#A7A8AF",
       "gitDecoration.modifiedResourceForeground": "#ffa3c1",
-      "gitDecoration.untrackedResourceForeground": "#000000",
+      "gitDecoration.untrackedResourceForeground": "#ffcabe",
 
 			"input.background": "#b9acff",
       "input.border": "#DDC99610",

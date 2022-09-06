@@ -15,6 +15,10 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 A Pastel Lavender VS Code Theme (dark version coming soon!)
 
+![Javascript](https://monosnap.com/file/MxeSOBxuYrY5ky5PJ9LCSgJ4oQPwFx)
+![JSON](https://monosnap.com/file/lfJ31sXEOekpWZyjJcDgMUUwPMnoRH)
+![HTML](https://monosnap.com/file/SEi9owlBymy904gkxbeNIukeYRoRXm)
+
 ### Install
 This extension is available for free in the [Visual Studio Code Marketplace]()
 
