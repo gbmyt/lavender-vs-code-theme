@@ -58,8 +58,8 @@
       "editorIndentGuide.activeBackground": "#CAA6FF",
       "editorIndentGuide.background": "#fde9b67f",
       "editorInfo.foreground": "#00000070",
-      "editorLineNumber.activeForeground": "#000000",
-      "editorLineNumber.foreground": "#000000c0",
+      "editorLineNumber.activeForeground": "#b9acff",
+      "editorLineNumber.foreground": "#483d6f",
       "editorLink.activeForeground": "#DABEFF",
       "editorMarkerNavigation.background": "#DABEFF05",
       "editorOverviewRuler.border": "#b9acff",
@@ -632,10 +632,11 @@
         "scope": [
           "entity.name.module.js",
           "variable.import.parameter.js",
-          "variable.other.class.js"
+          "variable.other.class.js",
+          "variable.other.php"
         ],
         "settings": {
-          "foreground": "#000000"
+          "foreground": "#DABEFF"
         }
       },
       {
@@ -738,15 +739,15 @@
           "string.regexp"
         ],
         "settings": {
-          // "foreground": "#8cff00"
+          "foreground": "#fde9b6ff"
         }
       },
       {
         "scope": [
-          "constant.character.escape"
+          "constant.character.escape.php"
         ],
         "settings": {
-          "foreground": "#000000"
+          "foreground": "#eadaff"
         }
       },
       {
