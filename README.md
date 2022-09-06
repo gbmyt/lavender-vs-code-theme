@@ -2,8 +2,13 @@
 
 A Pastel Lavender VS Code Theme (dark version coming soon!)
 
+## Javascript
 ![Javascript](/assets/javascript.png)
+
+## JSON
 ![JSON](/assets/JSON.png)
+
+## HTML
 ![HTML](/assets/html.png)
 
 ### Install
