@@ -12,6 +12,6 @@ All notable changes to the "lavender" extension will be documented in this file.
 
 ## 0.0.3
 - Debug Console, Debug Toolbar and Terminal colors updated
-- Updated colors for markdown files
+- Updated markdown link colors
 - Updated welcome page colors
 - Updated JSON punctuation/string colors
