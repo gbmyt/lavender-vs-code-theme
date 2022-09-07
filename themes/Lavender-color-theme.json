@@ -417,14 +417,8 @@
         "scope": [
           "comment.line.scss",
           "comment.line.double-slash.js",
-          "punctuation.definition.comment.scss",
-          "punctuation.definition.comment.js",
-          "punctuation.definition.comment.html",
           "comment.block.html",
           "comment.block.js",
-          "punctuation.support.type.property-name.begin.json.comments",
-          "punctuation.definition.comment.json.comments",
-          "punctuation.separator.dictionary.pair.json.comments",
           "entity.name.function.python",
           "comment.line.number-sign.python"
         ],
@@ -435,10 +429,27 @@
       },
       {
         "scope": [
+          "punctuation.definition.comment.scss",
+          "punctuation.definition.comment.js",
+          "punctuation.definition.comment.html",
+          "punctuation.support.type.property-name.begin.json.comments",
+          "punctuation.definition.comment.json.comments",
+          "punctuation.separator.dictionary.pair.json",
+          "punctuation.separator.array.json"
+        ],
+        "settings": {
+          "foreground": "#483d6fbc"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.support.type.property-name.begin.json",
+          "punctuation.support.type.property-name.end.json",
           "punctuation.support.type.property-name.begin.json.comments",
           "punctuation.support.type.property-name.end.json.comments",
           "punctuation.separator.dictionary.key-value.json.comments",
-          "support.type.property-name.json.comments"
+          "support.type.property-name.json.comments",
+          "support.type.property-name.json"
         ],
         "settings": {
           "foreground": "#ff7da8",
@@ -446,8 +457,8 @@
       },
       {
         "scope": [
-          "punctuation.definition.string.begin.json.comments",
-          "punctuation.definition.string.end.json.comments",
+          "punctuation.definition.string.begin.json",
+          "punctuation.definition.string.end.json",
           "string.quoted.double.json"
         ],
         "settings": {
@@ -520,9 +531,6 @@
           "variable.function",
           "keyword.other.special-method",
           "entity.name.function",
-          "markup.bold",
-          "markup.bold.markdown",
-          "markup.italic.markdown",
           "meta.class-method.js",
           "variable.function.constructor",
           "entity.name.tag.other.html",
@@ -547,7 +555,8 @@
           "meta.paragraph.markdown"
         ],
         "settings": {
-          "foreground": "#eadaff"
+          "foreground": "#eadaff",
+          // "fontStyle": "italic" // not sure I like this
         }
       },
       {
@@ -802,14 +811,6 @@
       },
       {
         "scope": [
-          "support.type.property-name.json"
-        ],
-        "settings": {
-          "foreground": "#DABEFF"
-        }
-      },
-      {
-        "scope": [
           "text.html.markdown",
           "punctuation.definition.list_item.markdown"
         ],
@@ -828,7 +829,8 @@
       {
         "scope": [
           "text.html.markdown markup.inline.raw.markdown",
-          "punctuation.definition.raw.markdown"
+          "punctuation.definition.raw.markdown",
+          "meta.separator.markdown"
         ],
         "settings": {
           "foreground": "#00000050"
@@ -843,12 +845,22 @@
       {
         "scope": [
           "markdown.heading",
-          "markup.heading | markup.heading entity.name",
-          "markup.heading.markdown punctuation.definition.heading.markdown",
-          "entity.name.section.markdown"
+          "markup.heading | markup.heading entity.name"
         ],
         "settings": {
           "foreground": "#6654A1",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "markup.heading.markdown punctuation.definition.heading.markdown",
+          "entity.name.section.markdown",
+          "markup.bold",
+          "markup.bold.markdown"
+        ],
+        "settings": {
+          "foreground": "#483d6f",
           "fontStyle": "bold"
         }
       },
@@ -899,7 +911,7 @@
           "constant.other.reference.link.markdown"
         ],
         "settings": {
-          "foreground": "#000000"
+          "foreground": "#fde9b6ff"
         }
       },
       {
