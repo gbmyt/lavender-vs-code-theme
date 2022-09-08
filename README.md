@@ -1,6 +1,12 @@
 # Lavender VS Code Theme
 
-A Pastel Lavender VS Code Theme (dark version coming soon!)
+.・。.・゜ ✭・.・✫・゜・。.
+
+₍˶ˆ꒳ˆ˶₎✼\*ﾟ ✿
+
+♡ ♡ ♡ A Pastel Lavender VS Code Theme (dark version coming soon!) ♡ ♡ ♡
+
+.・。.・゜ ✭・.・✫・゜・。.
 
 ## Install
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=gbmyt.pastel-lavender-theme)
@@ -14,10 +20,13 @@ To override this (or any other) theme in your personal config file, please follo
 "editor.semanticHighlighting.enabled": false
 ```
 
-# Issues
-Noticing issues for any language? Please raise an issue and I'll fix (please provide a sample for the language in question).
+## Contributing
+Pull requests, bug reports, and feature requests are welcome! Please search [existing issues](https://github.com/gbmyt/lavender-vs-code-theme/issues) before creating a new one.
 
-What's new?
+# Issues
+Noticing issues for any language? Please raise an issue and I'll get a fix out! (please provide a sample for the language in question).
+
+## What's new?
 Click here to view the [Changelog](https://github.com/gbmyt/lavender-vs-code-theme/blob/main/CHANGELOG.md)
 
 ## Javascript

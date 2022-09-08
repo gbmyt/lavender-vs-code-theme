@@ -106,6 +106,16 @@
       "inputValidation.infoBorder": "#00000050",
       "inputValidation.warningBorder": "#00000050",
 
+      // Command Palette Keybinding Labels
+      "keybindingLabel.background": "#b9acff",
+      "keybindingLabel.foreground": "#6654A1",
+      "keybindingLabel.border": "#6654A1",
+      "keybindingLabel.bottomBorder": "#6654A1",
+
+      // Keyboard Shortcuts
+      "keybindingTable.headerBackground": "#DABEFF",
+      "keybindingTable.rowsBackground":"#b9acff",
+
       // File Explorer (tree) Settings
 			"list.activeSelectionBackground": "#b9acff",
       "list.activeSelectionForeground": "#483d6f",
@@ -121,17 +131,7 @@
       "listFilterWidget.noMatchesOutline": "#b9acff30",
       "listFilterWidget.outline": "#b9acff30",
 
-      // Command Palette Keybinding Labels
-      "keybindingLabel.background": "#b9acff",
-      "keybindingLabel.foreground": "#6654A1",
-      "keybindingLabel.border": "#6654A1",
-      "keybindingLabel.bottomBorder": "#6654A1",
-
-      // Keyboard Shortcuts
-      "keybindingTable.headerBackground": "#DABEFF",
-      "keybindingTable.rowsBackground":"#b9acff",
-
-      // Menu Bar
+      // Menu Bar (Not Visible on Mac)
 			"menu.background": "#b9acfff8",
       "menu.border": "#00000050",
       "menu.foreground": "#DABEFF",
@@ -143,6 +143,7 @@
       "menubar.selectionBorder": "#00000050",
       "menubar.selectionForeground": "#DABEFF",
 
+      // Minimap Settings
 			"minimap.background": "#b9acff",
       "minimapGutter.addedBackground": "#000000",
       "minimapGutter.deletedBackground": "#000000",
@@ -157,13 +158,14 @@
       "notifications.background": "#b9acff",
       "notifications.foreground": "#DABEFF",
 
-			// Terminal
+			// Terminal Title Bar Settings
 			"panel.background": "#7f73c4",
       "panel.border": "#9385E3",
       "panelTitle.activeBorder": "#6654A1",
       "panelTitle.activeForeground": "#fde9b6ff",
       "panelTitle.inactiveForeground": "#483d6f",
 
+      // Peek View Settings
 			"peekView.border": "#b9acff30",
       "peekViewEditor.background": "#6b06f005",
       "peekViewEditor.matchHighlightBackground": "#00000050",
@@ -202,9 +204,14 @@
       "settings.textInputBackground": "#b9acff",
       "settings.textInputForeground": "#6654A1",
 
+      // Side Bar Settings
 			"sideBar.background": "#9385E3",
       "sideBar.border": "#9385E3",
       "sideBar.foreground": "#DABEFF",
+      // ======================================
+      //        SIDEBAR HEADER COLORS
+      // You've been looking for this setting!
+      // ======================================
       "sideBarSectionHeader.background": "#b9acff",
       "sideBarSectionHeader.border": "#b9acff60",
       "sideBarSectionHeader.foreground": "#6654A1",
@@ -221,6 +228,7 @@
       "statusBarItem.remoteBackground": "#000000",
       "statusBarItem.remoteForeground": "#b9acff",
 
+      // File Tab Settings
 			"tab.activeBackground": "#b9acff",
       "tab.activeBorder": "#9385E3",
       "tab.activeForeground": "#6654A1",
@@ -257,6 +265,8 @@
       "terminal.ansiYellow": "#000000",
       "terminalCursor.background": "#fde9b6ff",
       "terminalCursor.foreground": "#fde9b6ff",
+
+      // Terminal Dots
       "terminalCommandDecoration.defaultBackground": "#eadaff" , // change this to #ff7da8 if able to switch terminal text color
       "terminalCommandDecoration.successBackground": "#ffa3c1",
       // "terminalCommandDecoration.errorBackground": "#ff0000",
