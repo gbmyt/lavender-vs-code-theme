@@ -229,13 +229,13 @@
       "statusBarItem.remoteForeground": "#b9acff",
 
       // File Tab Settings
-			"tab.activeBackground": "#b9acff",
+			"tab.activeBackground": "#9385E3",
       "tab.activeBorder": "#9385E3",
       "tab.activeForeground": "#6654A1",
       "tab.activeModifiedBorder": "#000000",
       "tab.border": "#9385E3",
-      "tab.inactiveBackground": "#9385E3",
-      "tab.inactiveForeground": "#DABEFFaf",
+      "tab.inactiveBackground": "#b9acff",
+      "tab.inactiveForeground": "#9385E3",
       "tab.unfocusedActiveBorder": "#000000",
       "tab.unfocusedActiveBackground": "#00000040",
       "tab.unfocusedActiveForeground": "#DABEFF",
